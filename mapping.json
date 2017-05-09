@@ -1,0 +1,48 @@
+{
+	"target_api_root_dir": "docs-ref-autogen",
+	"organization": {
+		"Azure": {
+			"index": "?",
+			"mapping": [{
+				"toc_title": "Advisor",
+				"target_url": "advisor",
+				"source_index": "docs-ref-conceptual/advisor/index.md",
+				"source_toc": "docs-ref-conceptual/advisor/toc.md",
+				"swagger_files": [{
+					"source_swagger": "azure-rest-api-specs/arm-advisor/2017-03-31/swagger/advisor.json"
+				},
+				{
+					"source_swagger": "azure-rest-api-specs/arm-advisor/2017-03-31/swagger/advisor2.json"
+				}]
+			},
+			{
+				"toc_title": "Analysis Services",
+				"target_url": "analysisservices",
+				"source_index": "docs-ref-conceptual/analysisservices/index.md",
+				"source_toc": "docs-ref-conceptual/analysisservices/toc.md",
+				"swagger_files": [{
+					"source_swagger": "azure-rest-api-specs/arm-analysisservices/2016-05-16/swagger/analysisservices.json"
+				},
+				{
+					"source_swagger": "azure-rest-api-specs/arm-analysisservices/2016-05-16/swagger/analysisservices2.json"
+				}]
+			}]
+		},
+		"Office": {
+			"index": "?",
+			"mapping": [
+			{
+				"toc_title": "Analysis Services",
+				"target_url": "analysisservices",
+				"source_index": "docs-ref-conceptual/analysisservices/index.md",
+				"source_toc": "docs-ref-conceptual/analysisservices/toc.md",
+				"swagger_files": [{
+					"source_swagger": "azure-rest-api-specs/arm-analysisservices/2016-05-16/swagger/analysisservices.json"
+				},
+				{
+					"source_swagger": "azure-rest-api-specs/arm-analysisservices/2016-05-16/swagger/analysisservices2.json"
+				}]
+			}]
+		}
+	}
+}
