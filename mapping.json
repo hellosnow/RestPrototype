@@ -29,7 +29,10 @@
 				"service_index": "docs-ref-conceptual/analysisservices/index.md",
 				"service_toc": "docs-ref-conceptual/analysisservices/toc.md",
 				"swagger_files": [{
-					"source": "azure-rest-api-specs/arm-analysisservices/2016-05-16/swagger/analysisservices.json"
+					"source": "azure-rest-api-specs/arm-apimanagement/2016-10-10/swagger/apimgroups.json",
+					"operation_group_mapping": {
+						"Operations": "Groups apimgroups"
+					}
 				}]
 			}]
 		}
