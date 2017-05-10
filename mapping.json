@@ -1,46 +1,35 @@
 {
-	"target_api_root_dir": "docs-ref-autogen",
-	"organization": {
+	"organizations": {
 		"Azure": {
-			"index": "?",
-			"mapping": [{
+			"organization_index": "?",
+			"services": [{
 				"toc_title": "Advisor",
-				"target_url": "advisor",
-				"source_index": "docs-ref-conceptual/advisor/index.md",
-				"source_toc": "docs-ref-conceptual/advisor/toc.md",
+				"url_group": "advisor",
+				"service_index": "docs-ref-conceptual/advisor/index.md",
+				"service_toc": "docs-ref-conceptual/advisor/toc.md",
 				"swagger_files": [{
-					"source_swagger": "azure-rest-api-specs/arm-advisor/2017-03-31/swagger/advisor.json"
-				},
-				{
-					"source_swagger": "azure-rest-api-specs/arm-advisor/2017-03-31/swagger/advisor2.json"
+					"source": "azure-rest-api-specs/arm-advisor/2017-03-31/swagger/advisor.json"
 				}]
 			},
 			{
-				"toc_title": "Analysis Services",
-				"target_url": "analysisservices",
-				"source_index": "docs-ref-conceptual/analysisservices/index.md",
-				"source_toc": "docs-ref-conceptual/analysisservices/toc.md",
+				"toc_title": "API Management",
+				"url_group": "apimanagement",
+				"service_index": "docs-ref-conceptual/apimanagement/index.md",
+				"service_toc": "docs-ref-conceptual/apimanagement/toc.md",
 				"swagger_files": [{
-					"source_swagger": "azure-rest-api-specs/arm-analysisservices/2016-05-16/swagger/analysisservices.json"
-				},
-				{
-					"source_swagger": "azure-rest-api-specs/arm-analysisservices/2016-05-16/swagger/analysisservices2.json"
+					"source": "azure-rest-api-specs/arm-apimanagement/2016-10-10/swagger/apimproducts.json"
 				}]
 			}]
 		},
 		"Office": {
-			"index": "?",
-			"mapping": [
-			{
+			"organization_index": "?",
+			"services": [{
 				"toc_title": "Analysis Services",
-				"target_url": "analysisservices",
-				"source_index": "docs-ref-conceptual/analysisservices/index.md",
-				"source_toc": "docs-ref-conceptual/analysisservices/toc.md",
+				"url_group": "analysisservices",
+				"service_index": "docs-ref-conceptual/analysisservices/index.md",
+				"service_toc": "docs-ref-conceptual/analysisservices/toc.md",
 				"swagger_files": [{
-					"source_swagger": "azure-rest-api-specs/arm-analysisservices/2016-05-16/swagger/analysisservices.json"
-				},
-				{
-					"source_swagger": "azure-rest-api-specs/arm-analysisservices/2016-05-16/swagger/analysisservices2.json"
+					"source": "azure-rest-api-specs/arm-analysisservices/2016-05-16/swagger/analysisservices.json"
 				}]
 			}]
 		}
